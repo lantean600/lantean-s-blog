@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   // 修改为你的仓库名，例如 '/lantean-blog/' 或留空 '/'
-  base: '/',
+  base: '/lantean-s-blog/',
   
   build: {
     // 构建输出目录
