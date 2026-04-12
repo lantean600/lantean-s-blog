@@ -244,11 +244,11 @@ function AboutPage() {
     <div class="container">
       <div class="about-page animate-fade-in">
         <div class="about-header">
-          <div class="about-avatar">A</div>
+          <div class="about-avatar">L</div>
           <div class="about-info">
-            <h1>Axi</h1>
-            <p class="role">Software Engineer</p>
-            <p class="location">📍 Shanghai, China</p>
+            <h1>Lantean</h1>
+            <p class="role">Science Research</p>
+            <p class="location">📍 Taiyuan, China</p>
           </div>
         </div>
         
