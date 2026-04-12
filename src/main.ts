@@ -52,7 +52,7 @@ function Navbar() {
   return `
     <nav class="navbar">
       <div class="navbar-content">
-        <a href="#" class="nav-brand" onclick="navigate('home')">Axi's Blog</a>
+        <a href="#" class="nav-brand" onclick="navigate('home')">Lantean's Blog</a>
         <div class="nav-links">
           <button onclick="navigate('home')" class="nav-link ${currentPage === 'home' ? 'active' : ''}">Blog</button>
           <button onclick="navigate('about')" class="nav-link ${currentPage === 'about' ? 'active' : ''}">About</button>
@@ -69,9 +69,9 @@ function Hero() {
     <section class="hero">
       <div class="container">
         <div class="hero-content animate-fade-in">
-          <div class="avatar">A</div>
+          <div class="avatar">L</div>
           <div class="hero-text">
-            <h1>Hi, I'm Axi 👋</h1>
+            <h1>Hi, I'm Lantean 👋</h1>
             <p class="subtitle">Software Engineer & Tech Enthusiast</p>
             <p class="description">
               分享技术与生活，记录成长路上的点点滴滴。
@@ -256,11 +256,9 @@ function AboutPage() {
           <h2>About Me</h2>
           <div class="about-text">
             <p>
-              你好！我是 Axi，一名热爱编程的软件工程师。
-              专注于前端技术栈，包括 React、Vue、TypeScript 等。
+              你好！我是 Lantean.
             </p>
             <p>
-              除了前端，我也对后端开发、云原生技术保持着浓厚的兴趣。
               喜欢探索新技术，追求代码的优雅与可维护性。
             </p>
             <p>
@@ -313,7 +311,7 @@ function Footer() {
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <span class="footer-text">© 2024 Axi. All rights reserved.</span>
+          <span class="footer-text">© 2026 Lantean. All rights reserved.</span>
           <span class="footer-text">Made with ❤️</span>
         </div>
       </div>
