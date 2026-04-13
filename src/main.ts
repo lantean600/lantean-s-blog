@@ -1,4 +1,5 @@
-import { posts, categories, allTags } from './data';
+import { initTheme } from './theme';
+import { render } from './router';
 import './index.css';
 
 type Page = 'home' | 'post' | 'about' | 'academic' | 'projects' | 'links' | 'search';
@@ -853,11 +854,8 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// ─── Init ─────────────────────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
-  initTheme();
-  render();
-});
+// 首次渲染
+document.addEventListener('DOMContentLoaded', render);
 
-initTheme();
+// 兼容直接执行的情况（Vite HMR / SSR 入口）
 render();
