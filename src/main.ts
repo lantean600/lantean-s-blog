@@ -13,7 +13,7 @@ let isBlogDropdownOpen = false;
 let isDarkTheme = false;
 let currentLang: Lang = 'zh';
 
-// ─── i18n ───────────────────────────────────────────────────────────────────
+// ─── i18n ──────────────────────────────────────────────────────────────────
 const t: Record<Lang, Record<string, string>> = {
   zh: {
     brand: "Lantean's Blog",
